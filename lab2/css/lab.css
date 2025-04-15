@@ -4,6 +4,21 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #2b2312;
+    border: solid 5px #090a33;
+    background-color: #e1e1ff;
+    font-family: Geneva;
+  }
+  h1, h2, h3 {
+    font-family: "playfair display";
+    color: black;
+  }
+
+  .intro {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 5px #090a33;
+    font-family: "playfair display";
+    color: black;
+    display: inline-flexbox;
     background-color: #e1e1ff;
   }

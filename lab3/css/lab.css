@@ -12,11 +12,13 @@
     margin: 10px;
     max-width: 500px;
     max-height: 500px;
+    border: solid 3px #000000;
   }
   .screenshots {
     justify-content: center;
     font-family: 'Times New Roman';
     border: solid 3px #000000;
+    background-color: #e1e1ff;
     padding: 10px;
     margin: 10px;
   }

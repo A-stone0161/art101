@@ -4,6 +4,33 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 3px #000000;
+    background-color: #e1e1ff;
+    font-family: 'Times New Roman';
   }
+ .screenshot {
+    margin: 10px;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .screenshots {
+    justify-content: center;
+    font-family: 'Times New Roman';
+    border: solid 3px #000000;
+    padding: 10px;
+    margin: 10px;
+  }
+  .h2 {
+    font-family: 'Times New Roman';
+    font-size: 200%;
+    margin: 10px;
+  }
+  
+  .navigation {
+    position:relative; 
+    top:5px; 
+    left:1085px; 
+    margin-left:0px; 
+    margin-right:0px;
+  }
+ 

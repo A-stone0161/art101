@@ -14,3 +14,9 @@
     max-height: 500px;
     border: solid 3px #fffbe9;
   }
+  .graphic {
+    margin: 10px;
+    max-width: 500px;
+    max-height: 500px;
+    border: solid 3px #fffbe9;
+  }

@@ -7,6 +7,7 @@ let make = "Lexus";
 let model = "ES 330";
 let color = "Gold";
 let year = 2005;
+let name = "SSTAHOE";
 
 //Declare a variable to hold the current year, example, var currentYear = 2025
 let currentYear = 2025;
@@ -20,11 +21,8 @@ let age = currentYear - year;
 
 //Print the variables
 document.writeln ("Make: " + make + "<br>");
-
 document.writeln ("Model: " + model + "<br>");
-
 document.writeln ("Color: " + color + "<br>");
-
 document.writeln ("Age: " + age + "<br>");
-
-document.writeln ("Own it? " + ownIt + "<br>");
+document.writeln ("Own it? " + ownIt + "<br>"); 
+document.writeln ("Name: " + name + "<br>");

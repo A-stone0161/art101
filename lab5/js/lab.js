@@ -26,3 +26,11 @@ document.writeln ("Color: " + color + "<br>");
 document.writeln ("Age: " + age + "<br>");
 document.writeln ("Own it? " + ownIt + "<br>"); 
 document.writeln ("Name: " + name + "<br>");
+
+//score of a game excercise 
+let points= 0;
+points= 56;
+console.log("Points: " + points);
+
+let pointsMessage="Your current score is: " + points;
+console.log(pointsMessage);

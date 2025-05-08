@@ -45,9 +45,9 @@ console.log("What if we pulled out just the odd numbers?");
 
   $("#output").append(mapResults);
 
- $("#output").append("<br>" + "Here is the original array: " + numArray.join(","));
+ $("#output").append("<br>" + "Here is the original array: " + numArray.join(", "));
 
- $("#output").append("<br>" + "Here's the array divided by point five: " + dividedByPointFive.join(","));
+ $("#output").append("<br>" + "Here's the array divided by point five: " + dividedByPointFive.join(", "));
 
  $("#output").append("<br>" + "The square roots are: " + numArray.map(squareNumber).join(", "));
 

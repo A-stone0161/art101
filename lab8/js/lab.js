@@ -41,9 +41,15 @@ console.log("What if we pulled out just the odd numbers?");
     console.log("Sorry that took a second (or three). Here's the odd numbers: " + result);
   }, 3000);
 
- var mapResults = "Check the console for the full results, but here's a sneak peek: <br>" + ":) <br>";
+ var mapResults = "Here are the results of the lab! <br>";
 
-  $("#output").html(mapResults + dividedByPointFive.join("<br>"));
+  $("#output").append(mapResults);
 
+ $("#output").append("<br>" + "Here is the original array: " + numArray.join(","));
 
- 
+ $("#output").append("<br>" + "Here's the array divided by point five: " + dividedByPointFive.join(","));
+
+ $("#output").append("<br>" + "The square roots are: " + numArray.map(squareNumber).join(", "));
+
+  $("#output").append("<br>" + "The odd numbers are: " + getOddNumbers(numArray).join(", "));
+

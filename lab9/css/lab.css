@@ -7,3 +7,20 @@
   border: solid 3px #fffbe9;
   background-color: #e1e1ff;
   }
+
+  .special {
+    background: linear-gradient(-45deg, #d5d3ff 40%, #fafafa 50%, #d5d3ff 60%);
+    background-size: 300%;
+    background-position-x: 100%;
+    animation: shimmer 1s infinite linear;
+    border: solid 3px #00007c;
+    font-weight:bold;
+    color: #00007c;
+    padding: 10px;
+  }
+
+  @keyframes shimmer {
+    to {
+      background-position-x: 0%;
+    }
+  }

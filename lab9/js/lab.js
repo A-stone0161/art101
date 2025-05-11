@@ -1,10 +1,29 @@
-// index.js - Lab 7
+// index.js - Lab 9
 // Author: Annabelle Stone 
-// Date: 04/30/2025
+// Date: 05/12/2025
 
-// Constants
+// Buttons using jQuery
+$("#challenge").append("<button id='challenge-button'>Make Special</button>");
+$("#problems").append("<button id='problem-button'>Make Special</button>");
+$("#reflection").append("<button id='reflection-button'>Make Special</button>");
+$("#results").append("<button id='results-button'>Make Special</button>");
 
-// Functions
+// Button click-listner
+$("#challenge-button").click(function() {
+  $("#challenge").toggleClass("special");
+});
 
-// Variables
+$("#problem-button").click(function() {
+  $("#problems").toggleClass("special");
+});
+
+$("#reflection-button").click(function() {
+  $("#reflection").toggleClass("special");
+});
+
+$("#results-button").click(function() {
+  $("#results").toggleClass("special");
+});
+
+
 

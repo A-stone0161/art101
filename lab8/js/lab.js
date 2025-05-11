@@ -2,8 +2,6 @@
 // Author: Annabelle Stone 
 // Date: 05/08/2025
 
-
-
 // Define the array.
 const numArray = [1, 3, 5, 7, 9, 20, 24, 26];
 

@@ -50,9 +50,8 @@ document.getElementById("sortButton").addEventListener("click", function() {
 const name = document.getElementById("nameInput").value;
 // Value from the sortingHat function   
 const magicName = sortingHat(name);
-// 
 const magicInfo = magicsArray.find(h => h.title === magicName);
-
+// Display the result in the result div
   document.getElementById("result").innerHTML = `
     <h2>${magicInfo.title}</h2>
     <p>${magicInfo.text}</p>

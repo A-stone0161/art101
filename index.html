@@ -1,62 +1,107 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
 	<title>Annabelle's Homepage</title>
 
-	<!-- Use UTF character set, a good idea with any webpage -->
 	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/homepage.css">
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
-
-	<!-- <script type="text/javascript" src="./js/lab.js" DEFER></script> -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
 			<h1>Annabelle's Homepage</h1>
 			<div class="minor-section">
-					<!-- Note that all filenames use lowercase and no spaces -->
+					
 					<img class="headshot" src="./img/headshot.jpg">
 						<h2>About Me</h2>
 						<p>I'm an artist and a teacher. I love photography, cooking and listening to music. This is the homepage for my very first coding projects, give em' a look!</p>
 			</div>
-			<div class="navigation">
-					<!-- Note that all filenames use lowercase and no spaces -->
-				<ul>
-					<a href="lab1/index.html"/>
-						<li><h2>Lab 1: Introduction to HTML</h2></li>
-					<a href="lab2/index.html"/>
-						<li><h2>Lab 2: CSS and HTML Starter</h2></li>
-					<a href="lab3/index.html"/>
-						<li><h2>Lab 3: File Structures</h2></li>
-					<a href="lab4/index.html"/>	
-						<li><h2>Lab 4: Pseudocode and Problem-Solving</h2></li>
-					<a href="lab5/index.html"/>
-						<li><h2>Lab 5: Datatypes and Variables</h2></li>
-					<a href="lab6/index.html"/>
-						<li><h2>Lab 6: Arrays and Objects</h2></li>
-					<a href="lab7/index.html"/>
-						<li><h2>Lab 7: Functions</h2></li>
-					<a href="lab8/index.html"/>
-						<li><h2>Lab 8: Anonymous Functions and Callbacks</h2></li>
-					<a href="lab9/index.html"/>
-						<li><h2>Lab 9: Libraries and jQuery</h2></li>
-					<a href="lab10/index.html"/>
-						<li><h2>Lab 10: JavaScript for the Web</h2></li>
-					<a href="lab11/index.html"/>
-						<li><h2>Lab 11: JavaScript Forms and Events</h2></li>
-					<a href="lab12/index.html"/>
-						<li><h2>Lab 12: Conditionals</h2></li>
-				</ul>
+			<div class="minor-section">
+				<div id="navigation">
+					
+					<ul>
+					<button id="navButtonOne" class="navButton">Lab 1</button>
+					<button id="navButtonTwo" class="navButton">Lab 2</button>
+					<button id="navButtonThree" class="navButton">Lab 3</button>
+					<button id="navButtonFour" class="navButton">Lab 4</button>
+					<button id="navButtonFive" class="navButton">Lab 5</button>
+					<button id="navButtonSix" class="navButton">Lab 6</button>
+					<button id="navButtonSeven" class="navButton">Lab 7</button>
+					<button id="navButtonEight" class="navButton">Lab 8</button>
+					<button id="navButtonNine" class="navButton">Lab 9</button>
+					<button id="navButtonTen" class="navButton">Lab 10</button>
+					<button id="navButtonEleven" class="navButton">Lab 11</button>
+					<button id="navButtonTwelve" class="navButton">Lab 12</button>
+					</ul>
+				</div>
 			</div>
+
+			<script>
+			$(document).ready(function () {
+      			$('#navButtonOne').click(function () {
+       			 window.location.href = 'lab1/index.html';
+      			});
+    		});
+			$(document).ready(function () {
+	  			$('#navButtonTwo').click(function () {
+	   			 window.location.href = 'lab2/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonThree').click(function () {
+	   			 window.location.href = 'lab3/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonFour').click(function () {
+	   			 window.location.href = 'lab4/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonFive').click(function () {
+	   			 window.location.href = 'lab5/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonSix').click(function () {
+	   			 window.location.href = 'lab6/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonSeven').click(function () {
+	   			 window.location.href = 'lab7/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonEight').click(function () {
+	   			 window.location.href = 'lab8/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonNine').click(function () {
+	   			 window.location.href = 'lab9/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonTen').click(function () {
+	   			 window.location.href = 'lab10/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonEleven').click(function () {
+	   			 window.location.href = 'lab11/index.html';
+	  			});
+			});
+			$(document).ready(function () {
+	  			$('#navButtonTwelve').click(function () {
+	   			 window.location.href = 'lab12/index.html';
+	  			});
+			});
+			</script>
 
 		</section>
 		<nav id="links">

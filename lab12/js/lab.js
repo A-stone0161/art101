@@ -42,7 +42,7 @@ function sortingHat(str) {
   if (mod == 0) {
     return "Please enter a name, it is required."
   }
-  if (mod == 1) {
+  else if (mod == 1) {
     return "Elemental"
   }
   else if (mod == 2) {

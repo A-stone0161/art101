@@ -21,10 +21,14 @@
 	<main id="content">
 		<section>
 			<h1>Lab 12 - Conditionals</h1>
-			<a href="../index.html">
-				<div class="navigation">
-					<h2>Return to Annabelle's Homepage</h2></a>
-				</div>
+				<button id="returnHome" class="navButton">Return to Annabelle's Home Page</button>
+			<script>		
+					$(document).ready(function () {
+					$('#returnHome').click(function () {
+					window.location.href = '/index.html';
+					});
+				});
+			</script>
 		<div class ="minor-section">
 
 				<div id="challenge">
@@ -58,8 +62,8 @@
 		<div class ="minor-section">
 			<h2>Welcome to the world of Skullduggery Pleasant</h2>
 			<p>There are four base kinds of magic users, each with their own set of skills, strengths and weaknesses. When a sorcerer comes of age, their type of magic is solidified as they go through the surge. Your time has come, which discipline will be yours?<p>
-			<input type="text" id="nameInput" placeholder="Enter your name">
-			<button id="sortButton">Go through the surge, find your magic...</button>
+			<input type="text" id="nameInput" placeholder="Enter your name" style = "border: 2px solid transparent; width: 15em; height: 2.5em; padding-left: 0.8em; outline: none; overflow: hidden; background-color: #fffbe9; border-radius: 10px; transition: all 0.5s;">
+			<button id="sortButton" class = "navButton">Go through the surge, find your magic...</button>
 			<div id="result"></div>
 		</section>
 		<nav id="links">

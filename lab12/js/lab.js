@@ -11,7 +11,7 @@
 magicsArray = [
     {
         title: "Elemental",
-        text: "Elemental magic involves the use of Air, Water, Earth and Fire. However, Air and Fire are the most commonly used. This is due to the fact that Earth magic is mostly only used for defense and Water magic has less practical or combative use except when large bodies of water or snow are nearby. ."
+        text: "Elemental magic involves the use of Air, Water, Earth and Fire. However, Air and Fire are the most commonly used. This is due to the fact that Earth magic is mostly only used for defense and Water magic has less practical or combative use except when large bodies of water or snow are nearby."
     },
     {
         title: "Adept",

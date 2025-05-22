@@ -18,9 +18,4 @@ $("#submit").click(function(){
    const userName = $("#user-name").val();
   userNameSorted = sortString(userName);
   $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
-
-  userNameAnagramed = anagramString(userName);
-  $("#output").html('<div class="text"><p>' + userNameAnagramed + '</p></div>');
 });
-
-

@@ -10,6 +10,14 @@
 // Array of objects to sort by
 magicsArray = [
     {
+        title: "Please enter a name, it is required.",
+        text: "You cannot go through the surge without your true name intact."
+    },
+    {
+        title: "Sorcerer",
+        text: "Sorcerers are the most common type of magic user. They are able to use both Elemental and Adept magic. Sorcerers are also able to use the magic of other sorcerers, but only if they have been given permission to do so."
+    },
+    {
         title: "Elemental",
         text: "Elemental magic involves the use of Air, Water, Earth and Fire. However, Air and Fire are the most commonly used. This is due to the fact that Earth magic is mostly only used for defense and Water magic has less practical or combative use except when large bodies of water or snow are nearby."
     },
@@ -30,20 +38,24 @@ magicsArray = [
 
 function sortingHat(str) {
   let len = str.length;
-  let mod = len % 4;
+  let mod = len % 5;
   if (mod == 0) {
+    return "Please enter a name, it is required."
+  }
+  if (mod == 1) {
     return "Elemental"
   }
-  else if (mod == 1) {
+  else if (mod == 2) {
     return "Adept"
   }
-  else if (mod == 2) {
+  else if (mod == 3) {
     return "Warlock"
   }
-  else if (mod == 3) {
+  else if (mod == 4) {
     return "Witch"
   }
 }
+
  // Uses user input and button to sort into a magic type.
 document.getElementById("sortButton").addEventListener("click", function() {
 // Value of the input field 

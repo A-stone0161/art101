@@ -1,7 +1,7 @@
 // index.js - Lab 12
 // Author: Annabelle Stone 
 // Date: 05/25/2025
-//Javascript Forms and Events 
+//Conditionals
 
 // Credit for magic descriptions from Fandom Wiki:https://skulduggery.fandom.com/wiki/Magic#Elemental
 
